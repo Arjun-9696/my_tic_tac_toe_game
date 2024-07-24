@@ -16,18 +16,127 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-weight: normal;
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .row {
+  display: flex;
+  flex-direction: row;
+} */
+
+/* .column {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .jc-center {
+  justify-content: center;
+} */
+
+/* .square {
+  min-width: 100px;
+  min-height: 100px;
+  font-size: 64px;
+  text-align: center;
+  color: #1CDBF5;
+  font-weight: bolder;
+  padding: 30px;
+} */
+
+/* .b-bottom-right {
+  border-right: 15px solid #1CDBF5;
+  border-bottom: 15px solid #1CDBF5;
+} */
+
+/* .b-bottom {
+  border-bottom: 15px solid #1CDBF5;
+} */
+/* 
+.b-right {
+  border-right: 15px solid #1CDBF5;
+} */
+
+/* .button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg, #00DDEB, #5B42F3 70%, #AF40FF);
+  border: 0; */
+  /* border-radius: 8px; */
+  /* box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: #282c34;
+  padding: 12px 20px;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+} */
